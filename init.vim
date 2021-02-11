@@ -23,6 +23,8 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-ragtag'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-scriptease'
+Plug 'morhetz/gruvbox'
+Plug 'haishanh/night-owl.vim'
 
 Plug 'mxw/vim-jsx'
 Plug 'othree/yajs.vim'
@@ -61,7 +63,7 @@ set hlsearch                    " Highlight found searches
 set mouse=a                     "Enable mouse mode
 
 set noerrorbells             " No beeps
-set number                   " Show line numbers
+" set number                   " Show line numbers
 set showcmd                  " Show me what I'm typing
 set noswapfile               " Don't use swapfile
 set nobackup                 " Don't create annoying backup files
@@ -105,9 +107,14 @@ syntax enable
 set background=dark
 set termguicolors
 
+" syntax off
+" set nohlsearch
+" set t_Co=0
+
 "colorscheme solarized8
 "let g:airline_solarized_bg='dark'
-colorscheme base16-tomorrow-night
+"colorscheme base16-tomorrow-night
+colorscheme gruvbox
 
 "colorscheme base16-default-dark
 
